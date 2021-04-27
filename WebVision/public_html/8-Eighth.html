@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Лабораторная работа №8</title>
+<style>
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background-image: linear-gradient(20deg, whitesmoke, goldenrod);
+}
+
+h1 {
+    font-family: Tahoma;
+    color: darkblue;
+    font-size: 35px;
+}
+
+#left-block {
+    position: relative;
+    left: 5%;
+    width: 30%;
+    height: 500px;
+    margin: 0 0;
+}
+
+#right-block {
+    position: relative;
+    top: -500px;
+    left: 60%;
+    width: 30%;
+    height: 500px;
+    margin: 0 0;
+}
+
+#blocks-place {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100px;
+}
+
+.card {
+    position: relative;
+    top: 5%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: darkslategray;
+
+    width: 80%;
+    padding: 20px 40px;
+    height: auto;
+}
+
+.card-other{
+    position: relative;
+    top: 5%;
+    margin: auto;
+    border-radius: 20px;
+    
+    width: 80%;
+    padding: 20px 40px;
+    height: auto;
+}
+
+.card-img-borderimg {
+    width: 100%;
+    margin-left: -10px;
+    border: 10px solid;
+    border-image: url("RR-salon.jpg") 30 repeat repeat;
+}
+.card-img-ramk{
+    width: 100%;
+    margin-left: -10px;
+    border: 10px inset;
+}
+
+.card-img-ramk2{
+    width: 100%;
+    margin-left: -10px;
+    border: 10px dotted;
+}
+.card-img-ramk3{
+    width: 100%;
+    margin-left: -10px;
+    border: 10px double;
+}
+
+.card-img-ramk4{
+    width: 100%;
+    margin-left: -10px;
+    border: 6px dashed;
+}
+
+</style>
+</head>
+<body bgcolor="wheat">
+<header>
+    <h1>Rolls-Royce GHOST</h1>
+</header>
+    <section id="blocks-place">
+        <section id="left-block">
+            <div class="card">
+                <img class="card-img-borderimg" src="RR-front.jpg" alt="Front">
+            </div>
+            <br>
+            <div class="card">
+                <img class="card-img-borderimg" src="RR-back.jpg" alt="Back">
+            </div>
+            <br>
+            <div class="card-other">
+                <img class="card-img-ramk4" src="RR-salon.jpg" alt="Salon">
+            </div>
+            <br>
+            <br>
+        </section>
+        <section id="right-block">
+            <div class="card-other">
+                <img class="card-img-ramk3" src="RR-logo.png" alt="Logo">
+            </div>
+            <br>
+            <div class="card-other">
+                <img class="card-img-ramk" src="RR-up.jpeg" alt="Up">
+            </div>
+            <br>
+            <div class="card-other">
+                <img class="card-img-ramk2" src="RR-door.jpg" alt="Door">
+            </div>
+            <br>
+        </section>
+    </section>
+    <br>
+</body>
+</html>

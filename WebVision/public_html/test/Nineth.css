@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(214, 192, 160);
+}
+h1{
+    text-align: center;
+}
+div.tred{
+    width: 55%;
+    margin-left: 5%;
+    cursor: text;
+}
+li{
+    padding-bottom: 10px;
+    background: url(book.png) no-repeat 0 4px;
+}
+ul{
+    list-style-image: url(book.png);
+    list-style-position: inside;
+}
+#F{
+    border: dashed 1px #cf0000; /* Параметры рамки */
+    background: #148550; /* Цвет фона */
+    font-family: "Courier New", Courier, monospace; /* Шрифт текста */
+    padding: 7px; /* Поля вокруг текста */
+    margin: 0 0 0 5em; /* Отступы вокруг */
+    width: 150px;
+}
+#G{
+    border: 1px solid rgb(184, 12, 12);
+    border-bottom: none; 
+    padding: 3px; 
+    display: inline; 
+    background: #ebebeb;
+    font-weight: bold;
+    margin: 0 0 0 5em; 
+    white-space: nowrap; 
+}
+table{
+    border: 2px solid red;
+    background-color: rgb(4, 165, 144);
+    table-layout: fixed;
+    width: 300px;
+    cursor: grab;
+    border-collapse: separate;
+    border-spacing: 5px 35px;  
+    empty-cells: hide;
+    box-shadow: 2px 2px 100px  rgb(17, 7, 7);
+    
+}
+th { 
+   
+    background: #ccc;
+    padding: 5px; 
+    border: 1px solid black;
+   }
+   td { 
+    padding: 5px;
+    border: 1px solid black; 
+   }
+caption{
+    caption-side: bottom;
+}
